@@ -1,0 +1,5 @@
+es/etg/smr/carreracamellos/Main.class
+es/etg/smr/carreracamellos/cliente/utilidades/LogCamellos.class
+es/etg/smr/carreracamellos/cliente/mvc/controlador/ControladorCliente.class
+es/etg/smr/carreracamellos/cliente/mvc/modelo/Cliente.class
+es/etg/smr/carreracamellos/cliente/mvc/vista/ControladorVista.class

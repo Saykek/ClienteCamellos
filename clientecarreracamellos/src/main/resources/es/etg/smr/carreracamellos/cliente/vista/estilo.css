@@ -1,0 +1,52 @@
+/* Fondo del AnchorPane principal */
+.anchor-pane {
+    -fx-background-color:linear-gradient(to bottom, #f7de9e, #fccd56);
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Etiquetas (Label) */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Campos de texto */
+.text-field {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #e67e22;
+    -fx-border-radius: 4;
+    -fx-padding: 4px;
+    -fx-font-size: 14px;
+}
+
+/* Área de texto */
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e67e22;
+    -fx-border-radius: 5;
+    -fx-font-size: 13px;
+    -fx-padding: 6px;
+}
+
+/* Botones */
+.button {
+    -fx-background-color: linear-gradient(to right, #f39c12, #e67e22);
+    -fx-text-fill: rgb(240, 235, 223);
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+#pbCamello1 {
+    -fx-accent: #ddc03eea; /* verde */
+}
+
+#pbCamello2 {
+    -fx-accent: #f49e36; /* rojo */
+}
+

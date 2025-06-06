@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="373.0" prefWidth="710.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.etg.smr.carreracamellos.cliente.mvc.vista.ControladorVista">
+   <children>
+      <Button fx:id="btnConectar" contentDisplay="RIGHT" layoutX="522.0" layoutY="58.0" mnemonicParsing="false" onAction="#iniciarPartida" stylesheets="@estilo.css" text="Conectar" textAlignment="RIGHT" />
+      <Label fx:id="lblTitulo" contentDisplay="CENTER" layoutX="214.0" layoutY="14.0" text="Carrera de Camellos" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombreCliente" layoutX="177.0" layoutY="61.0" prefHeight="27.0" prefWidth="302.0" />
+      <Label fx:id="txtNombre" layoutX="38.0" layoutY="57.0" text="Nombre" />
+      <ImageView fx:id="imgCamello1" fitHeight="32.0" fitWidth="36.0" layoutX="15.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@camello.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCamello2" fitHeight="34.0" fitWidth="40.0" layoutX="15.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@camelloJugador.png.jpeg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtNombreCamello1" layoutX="56.0" layoutY="130.0" prefHeight="27.0" prefWidth="134.0" />
+      <TextField fx:id="txtNombreCamello2" layoutX="61.0" layoutY="194.0" prefHeight="27.0" prefWidth="134.0" />
+      <TextArea id="taMensajes" fx:id="taMensajes" layoutX="38.0" layoutY="240.0" prefHeight="103.0" prefWidth="444.0" stylesheets="@estilo.css" />
+      <Label fx:id="lblProgresoCamello1" layoutX="552.0" layoutY="127.0" prefHeight="34.0" prefWidth="121.0" />
+      <Label id="lblProgresoCamello2" fx:id="lblProgresoCamello2" layoutX="553.0" layoutY="183.0" prefHeight="34.0" prefWidth="127.0" />
+      <ProgressBar id="pbCamello1" fx:id="pbCamello1" layoutX="205.0" layoutY="134.0" prefHeight="20.0" prefWidth="326.0" progress="0.0" stylesheets="@estilo.css" />
+      <ProgressBar id="pbCamello2" fx:id="pbCamello2" layoutX="205.0" layoutY="203.0" prefHeight="20.0" prefWidth="326.0" progress="0.0" stylesheets="@estilo.css" />
+      <Button id="btnCertificado" fx:id="btnCertificado" contentDisplay="RIGHT" layoutX="522.0" layoutY="292.0" mnemonicParsing="false" onAction="#abrirCertificado" prefHeight="32.0" prefWidth="156.0" stylesheets="@estilo.css" text="Generar Certificado" textAlignment="RIGHT" />
+   </children>
+</AnchorPane>
